@@ -5,7 +5,7 @@ module.exports = {
   name: 'ember-intl-tel-input',
 
   included: function(app) {
-    this._super.included.apply(this, arguments);
+    this._super.included(app);
 
     var config = app.options.intlTelInput;
 

@@ -1,12 +1,11 @@
 {
   "name": "ember-intl-tel-input",
   "dependencies": {
-    "ember": "~2.8.0",
-    "ember-cli-shims": "0.1.1",
-    "intl-tel-input": "11.0.8",
-    "prism": "~1.0.0",
+    "intl-tel-input": "9.2.0",
+    "prism": "^1.6.0",
     "sinon": "~1.17.2",
     "sinonjs": "~1.17.1",
-    "es5-shim": "~4.3.1"
+    "es5-shim": "~4.3.1",
+    "bootstrap-sass": "^3.3.7"
   }
 }
