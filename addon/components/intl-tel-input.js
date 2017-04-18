@@ -352,6 +352,7 @@ export default Ember.Component.extend({
    */
   didInsertElement() {
     this._super(...arguments)
+
     this.$().on('input', event => this.send('handleUpdate', event));
     this.$().intlTelInput({
       autoHideDialCode: this.get('autoHideDialCode'),
@@ -363,10 +364,7 @@ export default Ember.Component.extend({
       onlyCountries: this.get('onlyCountries'),
       preferredCountries: this.get('preferredCountries'),
     });
-  },
 
-  didRender() {
-    this._super(...arguments)
     const value = this.get('value')
     if (value) {
       this.$().intlTelInput('setNumber', value)
