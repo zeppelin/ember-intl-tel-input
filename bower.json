@@ -1,7 +1,7 @@
 {
   "name": "ember-intl-tel-input",
   "dependencies": {
-    "intl-tel-input": "9.2.0",
+    "intl-tel-input": "~11.0.8",
     "prism": "^1.6.0",
     "sinon": "~1.17.2",
     "sinonjs": "~1.17.1",
